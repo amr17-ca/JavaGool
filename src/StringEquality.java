@@ -1,0 +1,13 @@
+public class StringEquality {
+    public static void main(String[]args){
+        String a =  "hi";
+        String b = new String("hi");
+        //System.out.println(a==b);
+        //System.out.println(a.equals(b));
+
+        String c = "hi";
+        System.out.println(a==c);
+        System.out.println(a.equals(c));
+    }
+
+}
